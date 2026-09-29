@@ -24,3 +24,12 @@
 // console.log(updated_product)
 
 
+// function addNumbers(...num){
+//     console.log(num)
+// }
+// addNumbers(10,20,30,40)
+
+{/* <h1 id="title">Hello</h1>
+const title= document.getElementById("Title")
+title.textContent("Welcome") */}
+
