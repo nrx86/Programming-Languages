@@ -33,3 +33,27 @@
 const title= document.getElementById("Title")
 title.textContent("Welcome") */}
 
+// const li= document.createElement("li")
+// li.testContent="xyz"
+// list.appendChild(li)
+
+let list = document.getElementById("playingxi");
+
+let addButton = document.getElementById("addItem");
+let deleteButton = document.getElementById("deleteItem");
+
+addButton.addEventListener("click", function() {
+    let item = document.createElement("li");
+    item.textContent = "Virat Kohli";
+    list.appendChild(item);
+}
+
+);
+
+deleteButton.addEventListener("click", function() {
+    list.removeChild(list.firstElementChild);
+});
+
+
+
+
